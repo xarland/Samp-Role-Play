@@ -1,0 +1,27 @@
+{
+	"user": "xarland",
+	"repo": "Samp-Role-Play",
+	"entry": "source/new.pwn",
+	"output": "gamemodes/new.amx",
+	"local": true,
+	"dependencies": [
+		"sampctl/samp-stdlib",
+		"pBlueG/SA-MP-MySQL:R41-4",
+		"maddinat0r/sscanf:v2.8.3",
+		"Open-GTO/foreach:v2.2.3",
+		"urShadow/Pawn.Regex:1.1.2",
+		"Open-GTO/gtolib",
+		"Open-GTO/samp-gvar-plugin:v1.3.1"
+	],
+	"build": {
+		"includes": ["legacy"]
+	},
+	"runtime": {
+		"version": "0.3.7",
+		"rcon_password": "sprpass",
+		"port": 7777,
+		"hostname": "Samp Role Play | Client: 0.3.7 | Server: 01",
+		"maxplayers": 1000,
+		"language": "Russian"
+	}
+}
